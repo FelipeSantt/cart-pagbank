@@ -48,11 +48,11 @@ const Content = () => {
                             </div>
                         </div>
                         <div className="pagamento w-2 text-xs">
-                            <p>
-                                <span>por 12X </span>
-                                 R$<strong>24,90 </strong> <br/> <strong>sem juros no cartão de crédito</strong><br/> à vista por R$ 298,80
+                            <p className='text-base'>
+                                <span className='text-lg'>por 12X </span>
+                                 R$<strong className='text-lg'>24,90 </strong> <br/> <strong className='text-xs'>sem juros no cartão de crédito</strong><br/> à vista por R$ 298,80
                             </p>
-                            <a href="" className='flex justify-content-end text-sm'>Remover</a>
+                            <a href="" className='flex justify-content-end text-sm no-underline hover:underline'>Remover</a>
                         </div>
                     </div>
                 </Card>
@@ -67,7 +67,7 @@ const Content = () => {
                             <h3 className='font-medium text-base'>Cashback</h3>
                             <p className='font-light text-sm'>Receba o valor da maquininha de volta ao faturar acima de R$ 3 mil tanto no primeiro quanto no segundo mês após a adesão.</p>
                         </div>
-                        <div className="quantidade w-22rem -mt-1">
+                        <div className="quantidade w-22rem -ml-3 -mt-1">
                             <h3 className='font-medium text-base'>PagBank Saúde</h3>
                             <p className='font-light text-sm'>Tenha o plano ouro grátis no primeiro mês, pagando R$ 19,90 nos próximos 11 meses após a adesão.</p>
                         </div>
@@ -127,7 +127,7 @@ const Content = () => {
                         </div>
                     </div>
                 </div>
-                <div className='pagamento flex flex-column p-4 w-5 h-28rem bg-bluegray-100'>
+                <div className='pagamento flex flex-column mt-4 p-4 w-5 h-28rem bg-bluegray-100'>
                     <div className='h-7rem flex flex-column border-bottom-1'>
                         <div className='flex align-items-center justify-content-between'>
                             <h3>Subtotal <span className='text-sm'>(1 item)</span></h3>
